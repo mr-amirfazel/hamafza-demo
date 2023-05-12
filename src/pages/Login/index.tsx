@@ -3,6 +3,7 @@ import image from "../../assets/image 1.png";
 import google from "../../assets/Google-logo.png";
 import apple from "../../assets/Apple-logo.png";
 import SigInButton from "../../components/Login/SignInButton";
+import Button from "../../components/Button";
 
 function Login() {
   return (
@@ -35,10 +36,16 @@ function Login() {
         </div>
 
         <div className="flex flex-col w-full justify-center items-center space-y-2">
-          <input type="email" name="email" id="" className="w-[90%] border-[1px] border-[#C4D7FF] rounded-[8px] text-[#585A66] p-3" placeholder="d.che.nevsky@gmail.com" />
-          <button className="w-[90%] py-[11px] px-[28px] bg-[#2FD1C5] rounded-[8px] gap-[3.26px] text-white text-[18px] font-sans">
-            Continue
-          </button>
+          <input
+            type="email"
+            name="email"
+            id=""
+            className="w-[90%] border-[1px] border-[#C4D7FF] rounded-[8px] text-[#585A66] p-3"
+            placeholder="d.che.nevsky@gmail.com"
+          />
+          <div className="w-[90%]">
+            <Button>Continue</Button>
+          </div>
         </div>
       </div>
     </div>
