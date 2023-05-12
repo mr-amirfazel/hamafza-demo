@@ -6,7 +6,7 @@ interface LayoutProps extends PropsWithChildren{
 const Layout:FC<LayoutProps> = ({children}) => {
   return (
     <div className="h-screen grid place-items-center">
-        <div className="bg-slate-400 h-3/4  w-1/2 md:w-1/4 text-center">
+        <div className=" h-3/4  w-1/2 md:w-1/4 text-center p-2">
           <Navbar />
           {children}
           
