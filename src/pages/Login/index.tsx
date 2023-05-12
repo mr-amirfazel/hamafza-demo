@@ -4,6 +4,8 @@ import google from "../../assets/Google-logo.png";
 import apple from "../../assets/Apple-logo.png";
 import SigInButton from "../../components/Login/SignInButton";
 import Button from "../../components/Button";
+import Description from "../../components/Description";
+import Title from "../../components/Title";
 
 function Login() {
   return (
@@ -11,10 +13,10 @@ function Login() {
       {/* hero section */}
       <div className="flex flex-col justify-center items-center space-y-5 pt-5">
         <img src={image} alt="logo" width="113px" height="113px" />
-        <h2 className="font-bold text-4xl">My Study Life</h2>
-        <p className="text-gray-500">
+        <Title>My Study Life</Title>
+        <Description>
           Create a unique emotional story that describes better than words
-        </p>
+        </Description>
       </div>
 
       <div className="flex-grow pt-2 flex flex-col justify-around rounded-[24px] border-gray-200 border-[1px]">

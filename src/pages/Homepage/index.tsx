@@ -1,6 +1,8 @@
 import React from "react";
 import mainScrren from "../../assets/main-screen.png";
 import Button from "../../components/Button";
+import Title from "../../components/Title";
+import Description from "../../components/Description";
 
 const Homepage = () => {
   return (
@@ -14,10 +16,10 @@ const Homepage = () => {
         </div>
 
         <div>
-          <h2 className="font-bold text-4xl">My Study Life</h2>
-          <p className="text-gray-500">
+          <Title>My Study Life</Title>
+          <Description>
             Create a unique emotional story that describes better than words
-          </p>
+          </Description>
         </div>
 
         <div>
