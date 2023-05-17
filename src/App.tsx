@@ -5,6 +5,7 @@ import Layout from "./components/Layout";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from "./pages/Login";
 import Homepage from "./pages/Homepage";
+import Onboarding from "./pages/Onboarding";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />}></Route>
           <Route path="/login" element={<Login />} />
+          <Route path="/onboard" element={<Onboarding />} />
         </Routes>
       </BrowserRouter>
     </Layout>
